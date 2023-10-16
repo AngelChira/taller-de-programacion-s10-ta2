@@ -1,6 +1,8 @@
 
 package tareaacademica02;
 
+import javax.swing.JOptionPane;
+
 
 public class FrmTablaValores extends javax.swing.JFrame {
 
@@ -89,7 +91,7 @@ public class FrmTablaValores extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(btnMostrar)
                 .addGap(12, 12, 12)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(49, Short.MAX_VALUE))
         );
 
@@ -129,7 +131,7 @@ public class FrmTablaValores extends javax.swing.JFrame {
                 taResultado.append("   "+ascii[i]+"            "+mayusculas[i]+"\n");
             }
         }else{
-            
+            JOptionPane.showMessageDialog(null,"Error, debe selecionar una opción");
         }
         bgOpciones.clearSelection();  
         
