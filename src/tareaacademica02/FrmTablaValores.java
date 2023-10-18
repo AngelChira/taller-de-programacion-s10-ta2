@@ -1,16 +1,12 @@
-
 package tareaacademica02;
 
 import javax.swing.JOptionPane;
 
-
 public class FrmTablaValores extends javax.swing.JFrame {
-
 
     public FrmTablaValores() {
         initComponents();
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -100,7 +96,6 @@ public class FrmTablaValores extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void rdbNumerosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbNumerosActionPerformed
-        // TODO add your handling code here:
     }//GEN-LAST:event_rdbNumerosActionPerformed
 
     private void btnMostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarActionPerformed
@@ -138,8 +133,7 @@ public class FrmTablaValores extends javax.swing.JFrame {
     }//GEN-LAST:event_btnMostrarActionPerformed
 
     
-    public static void main(String args[]) {
-       
+    public static void main(String args[]) {       
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new FrmTablaValores().setVisible(true);
